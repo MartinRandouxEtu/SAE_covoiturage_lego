@@ -1,0 +1,497 @@
+body{
+    margin: 0;
+}
+
+header{
+    background-image: url("../images/FondBleu.jpg");
+}
+
+header > table{
+    border: 2px solid;
+    width: 60%;
+    margin: auto;
+}
+
+header td{
+    border: 2px solid;
+    text-align: center;
+}
+
+#Btn_Connection{
+    position: absolute;
+    background-color: red;
+    border: 0;
+    color: white;
+    right: 0;
+    top: 0;
+    margin-top: 15px;
+    margin-right: 100px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10%;
+}
+
+#logo_lego{
+    position: absolute;
+    width: 100px;
+    margin: 10px;
+}
+
+header button a{
+    color: white;
+}
+
+.Centrer{
+    text-align: center;
+}
+
+#texteHeader{
+    font-size: xx-large;
+    width: 70%;
+    margin-left: 15%;
+    text-align: justify;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+p{
+    font-size: x-large;
+}
+
+footer{
+    background-image: url("../images/FondBleuFooter.jpg");
+    display: grid;
+    grid-template-columns: 35% 15% 50%;
+    color: white;
+    padding: 10px;
+}
+
+footer p{
+    text-decoration: underline white;
+}
+
+footer a{
+    color: white;
+}
+
+#Footercell3 img{
+    padding: 5px;
+    width: 10%;
+}
+
+#Footercell3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Footercell3 p{
+    white-space: nowrap;
+}
+
+#Footercell3 a img{
+    float: left;
+    padding: 5px;
+    width: 15%;
+}
+
+/* Page accueil */
+#AccueilSection1{
+    margin-top: -32px;
+    background-color: #7b9ebf;
+}
+
+#AccueilgridS1{
+    padding: 10px;
+    padding-bottom: 0;
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+}
+
+#AccueilS1cell1 img{
+    width: 90%;
+    border-radius: 30%;
+    border: 2px dotted #680D0D;
+}
+
+#AccueilS1cell2 p{
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bold;
+}
+
+#AccueilS1cell3 img{
+    width: 100%;
+}
+
+#AccueilS1cell4{
+	width: 100%;
+    height: 500px;
+	overflow: hidden; 
+}
+#AccueilS1cell4 img{
+	position: relative;
+    width: 150%;
+	top: -50%;
+	left: -35%;
+	margin: 10%;
+}
+
+#AccueilS1cell5{
+    padding-left: 5%;
+    font-size: large;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+#AccueilS1cell6{
+    width: 100%;
+    height: 500px;
+	overflow: hidden; 
+}
+
+#AccueilS1cell6 img{
+    position: relative;
+    width: 150%;
+	top: -50%;
+	margin: 10%;
+}
+
+/* Page de connection */
+
+#ConnectionFond{
+    margin: 0;
+    background-color: orange;
+    background-attachment: fixed;
+    border-radius: 50% 30% 0% 70%;
+    background-clip: circle;
+    height: 100vh;
+    position: relative;
+}
+
+.ConnectionFormulaire{
+    padding-top: 30vh;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.ConnectionFormulaire h1{
+    text-align: center;
+}
+  
+#ConnectionFormulaire{
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+  
+.ConnectionGroupePartieFormulaire{
+    margin-bottom: 10px;
+}
+
+.ConnectionGroupePartieFormulaire label{
+    font-weight: bold;
+}
+
+.ConnectionBoiteReponse{
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+}
+  
+.ConnectionBtn{
+    margin-top: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#ConnectionCréerSonCompte{
+    float: right;
+}
+
+/* Page de création de compte */
+
+.CompteFormulaire{
+    width: 500px;
+    margin: 0 auto;
+}
+
+.CompteFormulaire h1{
+    text-align: center;
+}
+
+#CompteFormulaire{
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.ComptePartieFormulaire{
+    margin-bottom: 10px;
+}
+
+.ComptePartieFormulaire label{
+    font-weight: bold;
+}
+
+.CompteBoiteReponse{
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.CompteBtn{
+    margin-top: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Page de l'equipe */
+
+#EquipeBody{
+    background-color: #EEEEEE;
+}
+
+#EquipeHeader{
+    margin-bottom: 20px;
+    height: 150px;
+    background-size: 100% 150px;
+}
+
+
+#EquipeHeader p{
+    text-decoration: underline;
+    font-size: xx-large;
+}
+
+#EquipeSection1{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.EquipeFlipCard {
+    margin-top: -32px;
+    background-color: transparent;
+    width: 300px;
+    height: 400px;
+    border: 1px solid #f1f1f1;
+    border-radius: 40%;
+    perspective: 1000px;
+}
+
+.EquipeInterieurFlipCard {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.EquipeFlipCard:hover .EquipeInterieurFlipCard {
+    transform: rotateY(180deg);
+}
+
+.EquipeAvantFlipCard, .EquipeDosFlipCard {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 40%;
+}
+
+.EquipeAvantFlipCard {
+    background-color: violet;
+    color: black;
+}
+
+.EquipeAvantFlipCard img{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.EquipeImageFlipCard{
+    width: 200px;
+    height: 200px;
+} 
+
+.EquipeDosFlipCard {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.EquipeDosFlipCard h1{
+    margin-top: 20%;
+}
+
+/* Page du service vert */
+
+#SvBody{
+    background: linear-gradient(#60fcc3, #94db68, #60fcc3, #7f8c4d);
+}
+
+#SvHeader{
+    margin-bottom: 20px;
+    height: 150px;
+    background-size: 100% 150px;
+}
+
+#SvHeader p{
+    text-decoration: underline;
+    font-size: xx-large;
+}
+
+#SvSection1{
+    padding: 10px;
+    padding-bottom: 0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
+
+#SvS1cell1{
+    text-align: justify;
+    line-height: 1.5;
+    
+}
+
+#SvS1cell2 img{
+    width: 100%;
+}
+
+#SvTexteS1{
+    font-weight: bold;
+    text-decoration: underline red;
+    text-align: center;
+}
+
+#SvS2P1t1{
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+#SvS2P2{
+    padding: 10px;
+    padding-bottom: 0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    line-height: 1.5;
+}
+
+.SvTitre{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#SvS2cell2 {
+    display: flex;
+    flex-direction: column;
+}
+
+#SvS2cell2 img{
+    width: 200px;
+    padding-left: 100px;
+}
+
+
+#SvSection3{
+    padding: 10px;
+    padding-bottom: 0;
+    display: grid;
+    grid-template-columns: 50% 30% 20%;
+    align-items: center;
+}
+
+#SvS3t1{
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+#SvS3cell2{
+    padding-left: 15%;
+    padding-right: 15%;
+    grid-row: 1 / 3;
+    grid-column: 2;
+    line-height: 1.5;
+    background-color: lightgray;
+    border-radius: 5%;
+}
+
+#SvS3cell3 {
+    display: flex;
+    flex-direction: column;
+    grid-column: 1;
+}
+
+#SvS3cell3 li{
+    font-size: x-large;
+    line-height: 1.5;
+}
+
+#SvFooter{
+    margin-top: 50px;
+}
+
+/* Page du service de covoiturage */
+
+#CovoiturageBody{
+    background-color: #EEEEEE;
+}
+
+#CovoiturageHeader{
+    margin-bottom: 20px;
+    height: 150px;
+    background-size: 100% 150px;
+}
+
+#CovoiturageHeader p{
+    text-decoration: underline;
+    font-size: xx-large;
+}
+
+#CovoiturageSection1{
+    padding-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#CovoiturageFormulaire{
+    background-color: #FFFFFF;
+    width: 500px;
+    margin: 0 auto;
+    border: 1px solid;
+    padding: 10px;
+  }
+  
+.CovoituragePartieFormulaire{
+    margin-bottom: 10px;
+}
+  
+.CovoituragePartieFormulaire label{
+    font-weight: bold;
+}
+  
+.CovoiturageBoiteReponse{
+    width: 100%;
+}
+  
+.CovoiturageBtn{
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+}
